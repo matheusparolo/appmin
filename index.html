@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    <head>
+
+        <title>Appmin</title>
+
+        <!-- Metas -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Links -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap-reboot.min.css">
+
+        <link rel="stylesheet" href="/src/css/appshell/master.css">
+
+        <link rel="shortcut icon" href="/src/media/img/appshell/icons/icon.png">
+
+    </head>
+    <body>
+
+        <header class="container-fluid">
+
+            <div class="row">
+
+                <div class="header__left col-9 col-sm-10 col-md-4 col-lg-3 showed">
+
+                    <button class="left__action"><img src="/src/media/img/appshell/icons/menu.svg" alt="Abri Menu"></button>
+                    <a href="/"><img src="/src/media/img/appshell/icons/logo.svg" alt="Appmin" class="left__logo"></a>
+
+                </div>
+
+                <div id="header__right" class="col-3 col-sm-2 col-md-8 col-lg-9">
+
+                    <button id="header__user"><img src="/src/media/img/appshell/icons/user.svg" alt="Menu de Usuário"></button>
+                    <ul id="header__dropdown" type="none">
+                        <li><a href="#">Perfil</a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#">Sair</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <nav id="navbar__left" class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-9 col-sm-10 col-md-4 col-lg-3" id="navbar__left-col">
+
+                    <div class="row">
+
+                        <div class="header__left col-12">
+
+                            <button id="nav__close" class="left__action"><img src="/src/media/img/appshell/icons/close.svg" alt="Fechar Menu"></button>
+                            <a href="/"><img src="/src/media/img/appshell/icons/logo.svg" alt="Appmin" class="left__logo"></a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row" id="nav__row">
+
+                        <div class="col-12" id="navbar__items-div">
+
+                            <div id="navbar__search-div">
+
+                                <input type="search" id="navbar__input-search" placeholder="Pesquisar">
+                                <button id="navbar__btn-search"><img src="/src/media/img/appshell/icons/search.svg" alt="Pesquisar"></button>
+
+                            </div>
+
+                            <ul type="none" id="navbar__items">
+
+                                <li class="item__initial item__collapse navbar__item">
+                                    <p tabindex="0">Compras e Vendas<img src="/src/media/img/appshell/icons/key_down_blue.svg" alt="Expandir Categoria"></p>
+                                    <ul type="none">
+                                        <li class="item__collapse navbar__item">
+                                            <p tabindex="0">Relátorios<img src="/src/media/img/appshell/icons/key_down.svg" alt="Expandir Categoria"></p>
+                                            <ul type="none">
+                                                <li class="navbar__item">
+                                                    <a href="#"><p>Mensais<img src="/src/media/img/appshell/icons/key_down.svg" alt="Ir"></p></a>
+                                                </li>
+                                                <li class="navbar__item">
+                                                    <a href="#"><p>Semanais<img src="/src/media/img/appshell/icons/key_down.svg" alt="Ir"></p></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item__initial navbar__item">
+                                    <a href="#"><p>Usuários<img src="/src/media/img/appshell/icons/key_down_blue.svg" alt="Expandir Categoria"></p></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <footer id="navbar__copy">
+
+                            Copyright &copy; 2018. - Matheus P. M.<br> All Rights Reserved
+
+                        </footer>
+
+                    </div>
+
+                </div>
+                <div id="navbar__left-close" class="col-3 col-sm-2 col-md-8 col-lg-9"></div>
+
+            </div>
+
+        </nav>
+
+        <script src="/src/js/appmin/master.js"></script>
+
+    </body>
+
+</html>
